@@ -2,41 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
-
+/* Empire Doors & Windows Design System */
 @layer base {
   :root {
+    /* Brand Colors */
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-
+    --foreground: 210 15% 20%;
+    
+    /* Empire Blue Brand */
+    --brand-blue: 214 92% 45%;
+    --brand-blue-light: 214 85% 55%;
+    --brand-blue-dark: 214 95% 35%;
+    
+    /* UI Colors */
+    --primary: 214 92% 45%;
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 210 20% 96%;
+    --secondary-foreground: 210 15% 20%;
+    
+    --accent: 39 100% 50%;
+    --accent-foreground: 0 0% 100%;
+    
+    --muted: 210 20% 96%;
+    --muted-foreground: 210 10% 50%;
+    
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-
+    --card-foreground: 210 15% 20%;
+    
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-
+    --popover-foreground: 210 15% 20%;
+    
+    --border: 210 20% 90%;
+    --input: 210 20% 95%;
+    --ring: 214 92% 45%;
+    
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--brand-blue)) 0%, hsl(var(--brand-blue-light)) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(210 25% 98%) 100%);
+    
+    /* Shadows */
+    --shadow-soft: 0 4px 20px -4px hsl(var(--brand-blue) / 0.1);
+    --shadow-medium: 0 8px 30px -6px hsl(var(--brand-blue) / 0.15);
+    --shadow-strong: 0 16px 40px -8px hsl(var(--brand-blue) / 0.2);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
-
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -100,6 +117,56 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .btn-hero {
+    @apply bg-primary text-primary-foreground px-8 py-4 rounded-lg font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary text-secondary-foreground border-2 border-border px-8 py-4 rounded-lg font-semibold text-lg hover:bg-border transition-all duration-300;
+  }
+  
+  .btn-accent {
+    @apply bg-accent text-accent-foreground px-6 py-3 rounded-lg font-semibold hover:bg-accent/90 transition-all duration-300;
+  }
+  
+  .card-elegant {
+    @apply bg-card text-card-foreground p-6 rounded-xl border border-border shadow-sm hover:shadow-md transition-all duration-300;
+  }
+  
+  .gradient-hero {
+    background: var(--gradient-hero);
+  }
+  
+  .gradient-card {
+    background: var(--gradient-card);
+  }
+  
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+  
+  .shadow-medium {
+    box-shadow: var(--shadow-medium);
+  }
+  
+  .shadow-strong {
+    box-shadow: var(--shadow-strong);
+  }
+  
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+  
+  .transition-bounce {
+    transition: var(--transition-bounce);
   }
 }

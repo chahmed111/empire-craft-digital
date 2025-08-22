@@ -8,8 +8,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <div className="text-xl font-bold mb-4">
-              Empire <span className="text-accent">Doors & Windows</span>
+            <div className="flex items-center mb-4">
+              <img 
+                src="/src/assets/logo.png" 
+                alt="The Window & Door Guyz Logo" 
+                className="h-8 w-auto"
+              />
             </div>
             <p className="text-gray-300 mb-4">
               Elevating your living experience with premium quality doors and windows. 
@@ -66,8 +70,8 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Mail size={16} className="text-accent" />
-                <a href="mailto:info@empiredoors.co.uk" className="text-gray-300 hover:text-accent transition-colors">
-                  info@empiredoors.co.uk
+                <a href="mailto:info@thewindowdoorguyz.co.uk" className="text-gray-300 hover:text-accent transition-colors">
+                  info@thewindowdoorguyz.co.uk
                 </a>
               </div>
               <div className="flex items-start gap-3">
@@ -88,7 +92,7 @@ const Footer = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-300 text-sm">
-              © 2024 Empire Doors & Windows. All rights reserved.
+              © 2024 The Window & Door Guyz. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="/legal/privacy" className="text-gray-300 hover:text-accent transition-colors text-sm">

@@ -33,9 +33,11 @@ const Header = () => {
           <div className="flex items-center justify-between">
             {/* Logo */}
             <div className="flex items-center">
-              <div className="text-2xl font-bold text-primary">
-                Empire <span className="text-accent">Doors & Windows</span>
-              </div>
+              <img 
+                src="/src/assets/logo.png" 
+                alt="The Window & Door Guyz Logo" 
+                className="h-12 w-auto"
+              />
             </div>
 
             {/* Desktop Navigation */}

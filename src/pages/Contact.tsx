@@ -91,8 +91,8 @@ const Contact = () => {
                       <Phone className="text-primary mt-1" size={24} />
                       <div>
                         <h4 className="font-semibold mb-1">Phone</h4>
-                        <a href="tel:+44123456789" className="text-primary hover:underline">
-                          +44 123 456 789
+                        <a href="tel:+447435854263" className="text-primary hover:underline">
+                          +44 743 585 4263
                         </a>
                         <p className="text-sm text-muted-foreground">Available 7 days a week</p>
                       </div>
@@ -102,8 +102,8 @@ const Contact = () => {
                       <Mail className="text-primary mt-1" size={24} />
                       <div>
                         <h4 className="font-semibold mb-1">Email</h4>
-                        <a href="mailto:info@empiredoors.co.uk" className="text-primary hover:underline">
-                          info@empiredoors.co.uk
+                        <a href="mailto:thewindowdoorguyz@gmail.com" className="text-primary hover:underline">
+                          thewindowdoorguyz@gmail.com
                         </a>
                         <p className="text-sm text-muted-foreground">We'll respond within 24 hours</p>
                       </div>
@@ -113,24 +113,13 @@ const Contact = () => {
                       <MessageCircle className="text-primary mt-1" size={24} />
                       <div>
                         <h4 className="font-semibold mb-1">WhatsApp</h4>
-                        <a href="https://wa.me/44123456789" className="text-primary hover:underline">
+                        <a href="https://wa.me/447435854263" className="text-primary hover:underline">
                           Chat with us instantly
                         </a>
                         <p className="text-sm text-muted-foreground">Quick responses guaranteed</p>
                       </div>
                     </div>
 
-                    <div className="flex items-start gap-4">
-                      <MapPin className="text-primary mt-1" size={24} />
-                      <div>
-                        <h4 className="font-semibold mb-1">Address</h4>
-                        <p className="text-muted-foreground">
-                          123 High Street<br />
-                          Manchester, M1 1AA<br />
-                          United Kingdom
-                        </p>
-                      </div>
-                    </div>
                   </div>
                 </div>
 

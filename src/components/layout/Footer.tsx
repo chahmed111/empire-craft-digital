@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="flex items-center mb-4">
               <img 
                 src="/lovable-uploads/23cec4bc-fca0-417f-890d-72c0fa65e962.png" 
-                alt="The Window & Door Guyz Logo" 
+                alt="The Window and Door Guys Logo" 
                 className="h-8 w-auto"
               />
             </div>
@@ -84,7 +84,7 @@ const Footer = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-300 text-sm">
-              © 2024 The Window & Door Guyz. All rights reserved.
+              © 2024 The Window and Door Guys. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="/legal/privacy" className="text-gray-300 hover:text-accent transition-colors text-sm">

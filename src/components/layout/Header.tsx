@@ -35,7 +35,7 @@ const Header = () => {
             <div className="flex items-center">
               <img 
                 src="/lovable-uploads/23cec4bc-fca0-417f-890d-72c0fa65e962.png" 
-                alt="The Window & Door Guyz Logo" 
+                alt="The Window and Door Guys Logo" 
                 className="h-12 w-auto"
               />
             </div>

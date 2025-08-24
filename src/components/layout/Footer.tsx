@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center mb-4">
               <img 
-                src="/src/assets/logo.png" 
+                src="/lovable-uploads/23cec4bc-fca0-417f-890d-72c0fa65e962.png" 
                 alt="The Window & Door Guyz Logo" 
                 className="h-8 w-auto"
               />

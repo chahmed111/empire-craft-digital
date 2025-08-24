@@ -64,8 +64,8 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center gap-3">
                 <Phone size={16} className="text-accent" />
-                <a href="tel:+44123456789" className="text-gray-300 hover:text-accent transition-colors">
-                  +44 123 456 789
+                <a href="tel:+447435854263" className="text-gray-300 hover:text-accent transition-colors">
+                  +44 743 585 4263
                 </a>
               </div>
               <div className="flex items-center gap-3">
@@ -73,14 +73,6 @@ const Footer = () => {
                 <a href="mailto:thewindowdoorguyz@gmail.com" className="text-gray-300 hover:text-accent transition-colors">
                   thewindowdoorguyz@gmail.com
                 </a>
-              </div>
-              <div className="flex items-start gap-3">
-                <MapPin size={16} className="text-accent mt-1" />
-                <span className="text-gray-300">
-                  123 High Street<br />
-                  Manchester, M1 1AA<br />
-                  United Kingdom
-                </span>
               </div>
             </div>
           </div>

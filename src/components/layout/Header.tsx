@@ -20,9 +20,9 @@ const Header = () => {
       <div className="bg-brand-blue text-white py-2 text-sm">
         <div className="container mx-auto px-4 flex justify-between items-center">
           <span>🎉 15% Discount until 31st March - Limited Time Offer!</span>
-          <a href="tel:+44123456789" className="flex items-center gap-1 hover:text-accent transition-colors">
+          <a href="tel:+447435854263" className="flex items-center gap-1 hover:text-accent transition-colors">
             <Phone size={14} />
-            Call: +44 123 456 789
+            Call: +44 743 585 4263
           </a>
         </div>
       </div>

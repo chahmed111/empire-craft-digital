@@ -67,7 +67,7 @@ const TermsOfService = () => {
                 </p>
                 <p className="text-muted-foreground">
                   Email: thewindowdoorguyz@gmail.com<br />
-                  Phone: 01234 567890
+                  Phone: +44 743 585 4263
                 </p>
               </section>
 
